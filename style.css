@@ -1,0 +1,27 @@
+body{
+    background: radial-gradient(#FFD700 2%, #FF0000 39%,  #FF8C00 59%);
+}
+#show_sketch{
+    margin-left : 0;
+    float: right;
+}
+h1{
+  color: purple;
+  background-color: cornsilk;  
+}
+canvas{
+    border: 5px dashed white;
+    border-radius: 20px;
+    animation-name: trial;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+ @keyframes trial{
+     from{box-shadow: 1px 1px 38px black;}
+    to{box-shadow: 1px 1px 38px white;}
+    }
+p{
+    padding-top: 10px ;
+    font-size: 25px;
+}
